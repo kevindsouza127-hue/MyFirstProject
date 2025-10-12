@@ -1,0 +1,1550 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Labcare",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Categories/InsertCategories": {
+      "post": {
+        "tags": [
+          "Categories"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Categories"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Categories"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Categories"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Categories"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Categories"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Categories"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Categories/UpdateCategories": {
+      "put": {
+        "tags": [
+          "Categories"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Categories"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Categories"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Categories"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Categories"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Categories"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Categories"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Categories/DeleteCategories": {
+      "delete": {
+        "tags": [
+          "Categories"
+        ],
+        "parameters": [
+          {
+            "name": "Category",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Categories"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Categories"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Categories"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/MainCategory/InsertMainCategory": {
+      "post": {
+        "tags": [
+          "MainCategory"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MainCategory"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MainCategory"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MainCategory"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/MainCategory"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MainCategory"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MainCategory"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/MainCategory/UpdateMainCategory": {
+      "put": {
+        "tags": [
+          "MainCategory"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MainCategory"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MainCategory"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MainCategory"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Categories"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Categories"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Categories"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/MainCategory/DeleteCategories": {
+      "delete": {
+        "tags": [
+          "MainCategory"
+        ],
+        "parameters": [
+          {
+            "name": "MainCategory",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Categories"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Categories"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Categories"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/OSLabMaster/InsertOSLab": {
+      "post": {
+        "tags": [
+          "OSLabMaster"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OSLab"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OSLab"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/OSLab"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/IOSLab"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/IOSLab"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/IOSLab"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/OSLabMaster/UpdateOSLab": {
+      "put": {
+        "tags": [
+          "OSLabMaster"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OSLab"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OSLab"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/OSLab"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/OSLab"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OSLab"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OSLab"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/OSLabMaster/DeleteOSLab": {
+      "delete": {
+        "tags": [
+          "OSLabMaster"
+        ],
+        "parameters": [
+          {
+            "name": "OSLabName",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/OSLab"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OSLab"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OSLab"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Param/InsertParam": {
+      "post": {
+        "tags": [
+          "Param"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Param"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Param"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Param"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Param"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Param"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Param"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Param/UpdateParam": {
+      "put": {
+        "tags": [
+          "Param"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Param"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Param"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Param"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Param"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Param"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Param"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Param/DeleteParam": {
+      "delete": {
+        "tags": [
+          "Param"
+        ],
+        "parameters": [
+          {
+            "name": "ParamName",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Test"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Test"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Test"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Reasons/InsertReasons": {
+      "post": {
+        "tags": [
+          "Reasons"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Reasons"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Reasons"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Reasons"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Reasons"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Reasons"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Reasons"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Reasons/UpdateReasons": {
+      "put": {
+        "tags": [
+          "Reasons"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Reasons"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Reasons"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Reasons"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Param"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Param"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Param"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Reasons/DeleteReasons": {
+      "delete": {
+        "tags": [
+          "Reasons"
+        ],
+        "parameters": [
+          {
+            "name": "Reason",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Reasons"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Reasons"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Reasons"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Test/InsertTest": {
+      "post": {
+        "tags": [
+          "Test"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Test"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Test"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Test"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Test"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Test"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Test"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Test/UpdateTest": {
+      "put": {
+        "tags": [
+          "Test"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Test"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Test"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Test"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Test"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Test"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Test"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Test/DeleteTest": {
+      "delete": {
+        "tags": [
+          "Test"
+        ],
+        "parameters": [
+          {
+            "name": "TestName",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Test"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Test"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Test"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Title/InsertTitle": {
+      "post": {
+        "tags": [
+          "Title"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Titles"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Titles"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Titles"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Titles"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Titles"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Titles"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Title/UpdateTitle": {
+      "put": {
+        "tags": [
+          "Title"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Titles"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Titles"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Titles"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Titles"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Titles"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Titles"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Title/GetTitle": {
+      "get": {
+        "tags": [
+          "Title"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Users/InsertUser": {
+      "post": {
+        "tags": [
+          "Users"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Users"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Users"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Users"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Users"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Users"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Users"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Users/UpdateUser": {
+      "put": {
+        "tags": [
+          "Users"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Users"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Users"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Users"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Users"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Users"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Users"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Categories": {
+        "type": "object",
+        "properties": {
+          "category": {
+            "type": "string",
+            "nullable": true
+          },
+          "catShortCut": {
+            "type": "string",
+            "nullable": true
+          },
+          "mainCat": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "IOSLab": {
+        "type": "object",
+        "additionalProperties": false
+      },
+      "MainCategory": {
+        "type": "object",
+        "properties": {
+          "main": {
+            "type": "string",
+            "nullable": true
+          },
+          "lastNo": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "mainReset": {
+            "type": "string",
+            "nullable": true
+          },
+          "cutMode": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "OSLab": {
+        "type": "object",
+        "properties": {
+          "osLabName": {
+            "type": "string",
+            "nullable": true
+          },
+          "osContactPerson": {
+            "type": "string",
+            "nullable": true
+          },
+          "osAddress": {
+            "type": "string",
+            "nullable": true
+          },
+          "osPhone1": {
+            "type": "string",
+            "nullable": true
+          },
+          "osPhone2": {
+            "type": "string",
+            "nullable": true
+          },
+          "osFax": {
+            "type": "string",
+            "nullable": true
+          },
+          "osEmailID": {
+            "type": "string",
+            "nullable": true
+          },
+          "valid": {
+            "type": "string",
+            "nullable": true
+          },
+          "isReffered": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Param": {
+        "type": "object",
+        "properties": {
+          "paramName": {
+            "type": "string",
+            "nullable": true
+          },
+          "paramPrintHead": {
+            "type": "string",
+            "nullable": true
+          },
+          "paramUnit": {
+            "type": "string",
+            "nullable": true
+          },
+          "paramMethod": {
+            "type": "string",
+            "nullable": true
+          },
+          "paramRate": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "paramMaleNormal": {
+            "type": "string",
+            "nullable": true
+          },
+          "paramFemaleNormal": {
+            "type": "string",
+            "nullable": true
+          },
+          "paramChild1Normal": {
+            "type": "string",
+            "nullable": true
+          },
+          "paramChild6Normal": {
+            "type": "string",
+            "nullable": true
+          },
+          "paramChildNormal": {
+            "type": "string",
+            "nullable": true
+          },
+          "paramMaleDef": {
+            "type": "string",
+            "nullable": true
+          },
+          "paramFemaleDef": {
+            "type": "string",
+            "nullable": true
+          },
+          "paramChild1Def": {
+            "type": "string",
+            "nullable": true
+          },
+          "paramChild6Def": {
+            "type": "string",
+            "nullable": true
+          },
+          "paramChildDef": {
+            "type": "string",
+            "nullable": true
+          },
+          "paramMaleHigh": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "paramFemaleHigh": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "paramChild1High": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "paramChild6High": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "paramChildHigh": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "paramMaleLow": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "paramFemaleLow": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "paramChild1Low": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "paramChild6Low": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "paramChildLow": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "paramValidFlag": {
+            "type": "string",
+            "nullable": true
+          },
+          "paramDef2": {
+            "type": "string",
+            "nullable": true
+          },
+          "paramFooter": {
+            "type": "string",
+            "nullable": true
+          },
+          "pPrecision": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "sendsms": {
+            "type": "string",
+            "nullable": true
+          },
+          "formula": {
+            "type": "string",
+            "nullable": true
+          },
+          "dc": {
+            "type": "string",
+            "nullable": true
+          },
+          "paramtype": {
+            "type": "string",
+            "nullable": true
+          },
+          "observation": {
+            "type": "string",
+            "nullable": true
+          },
+          "observationcode": {
+            "type": "string",
+            "nullable": true
+          },
+          "sifactor": {
+            "type": "string",
+            "nullable": true
+          },
+          "siunit": {
+            "type": "string",
+            "nullable": true
+          },
+          "suffix": {
+            "type": "string",
+            "nullable": true
+          },
+          "sampleType": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "paramhmscode": {
+            "type": "string",
+            "nullable": true
+          },
+          "accrediation": {
+            "type": "string",
+            "nullable": true
+          },
+          "hmscode": {
+            "type": "string",
+            "nullable": true
+          },
+          "observationcpt": {
+            "type": "string",
+            "nullable": true
+          },
+          "forNonReport": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "isMandatory": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "usehelpvalue": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "reportingunit": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Reasons": {
+        "type": "object",
+        "properties": {
+          "reason": {
+            "type": "string",
+            "nullable": true
+          },
+          "reasonFlag": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Test": {
+        "required": [
+          "testName",
+          "testPrintAs"
+        ],
+        "type": "object",
+        "properties": {
+          "testName": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "testPrintAs": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "testMethod": {
+            "type": "string",
+            "nullable": true
+          },
+          "testRate": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "testCategory": {
+            "type": "string",
+            "nullable": true
+          },
+          "testOrder": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "testSuppressNamePrint": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "testKeepTogether": {
+            "type": "string",
+            "nullable": true
+          },
+          "testPageSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "testFooter": {
+            "type": "string",
+            "nullable": true
+          },
+          "testCutCategory": {
+            "type": "string",
+            "nullable": true
+          },
+          "cost": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "testOutSide": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "hmscode": {
+            "type": "string",
+            "nullable": true
+          },
+          "sendsms": {
+            "type": "string",
+            "nullable": true
+          },
+          "viewReport": {
+            "type": "string",
+            "nullable": true
+          },
+          "sampleType": {
+            "type": "string",
+            "nullable": true
+          },
+          "testdays": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "testOSLabCode": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "testcount": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "cptcode": {
+            "type": "string",
+            "nullable": true
+          },
+          "vcencode": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "samplevol": {
+            "type": "string",
+            "nullable": true
+          },
+          "accrediation": {
+            "type": "string",
+            "nullable": true
+          },
+          "autoauth": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tat": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "testalias": {
+            "type": "string",
+            "nullable": true
+          },
+          "calccptcode": {
+            "type": "string",
+            "nullable": true
+          },
+          "microspecialcpt": {
+            "type": "string",
+            "nullable": true
+          },
+          "histospecialcpt": {
+            "type": "string",
+            "nullable": true
+          },
+          "webtestcode": {
+            "type": "string",
+            "nullable": true
+          },
+          "micro_ESBLCPT": {
+            "type": "string",
+            "nullable": true
+          },
+          "micro_colonyCPT": {
+            "type": "string",
+            "nullable": true
+          },
+          "testhmscode": {
+            "type": "string",
+            "nullable": true
+          },
+          "autocomplete": {
+            "type": "string",
+            "nullable": true
+          },
+          "vattestcatcode": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "testschedule": {
+            "type": "string",
+            "nullable": true
+          },
+          "testReorder": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "sampleCollectionMethod": {
+            "type": "string",
+            "nullable": true
+          },
+          "doneby": {
+            "type": "string",
+            "nullable": true
+          },
+          "adactivity": {
+            "type": "string",
+            "nullable": true
+          },
+          "compname": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Titles": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "gender": {
+            "type": "string"
+          },
+          "defaultAgeType": {
+            "type": "string"
+          },
+          "active": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Users": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "userid": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
+          },
+          "uid": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "processat": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "licenceNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "valid": {
+            "type": "string",
+            "nullable": true
+          },
+          "compname": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}
